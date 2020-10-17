@@ -11,6 +11,15 @@ int main(){
     }
   r/=10;
   printf("%d\n",r);
+
+  int pr=1;
+  while (c!=0&& pr)
+    {
+      if (r%10 != c%10) pr=0;
+      r/=10; c/=10;
+    }
+  if (pr) printf("Палиндром\n");
+  else printf("Не палиндром\n");
   
   
   return 0;
