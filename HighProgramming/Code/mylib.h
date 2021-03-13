@@ -5,6 +5,8 @@
 void fill(int [], int);
 void show(int[], int);
 void sort(int [],int);
+void fillf(float [], int);
+void showf(float [], int);
 
 
 void fill(int X[], int n)
@@ -14,11 +16,24 @@ void fill(int X[], int n)
 	X[i] = rand()%99 + 1;
 }
 
+void fillf(float X[], int n)
+{
+	srand(time(NULL));
+	for (int i=0; i<n; i++)
+	X[i] = rand()%99 + 1;
+}
 
 void show(int X[], int n)
 {
 	for (int i=0; i<n; i++)
 	printf("%-2d\t", X[i]);
+	printf("\n");
+}
+
+void showf(float X[], int n)
+{
+	for (int i=0; i<n; i++)
+	printf("%-2f\t", X[i]);
 	printf("\n");
 }
 
