@@ -7,5 +7,5 @@ conn, addr = sock.accept()  # начинаем принимать соедине
 print('connected:', addr)  # выводим информацию о подключении
 data = conn.recv(1024)  # принимаем данные от клиента, по 1024 байт
 print(str(data))
-conn.send(byte("Server answer", encoding = 'UTF-8'))  # в ответ клиенту
+conn.send(bytes("Server answer", encoding = 'UTF-8'))  # в ответ клиенту
 conn.close()  # закрываем соединение

@@ -1,5 +1,5 @@
-CREATE DATABASE  IF NOT EXISTS `monitor_vuz` /*!40100 DEFAULT CHARACTER SET utf8 */;
-USE `monitor_vuz`;
+CREATE DATABASE  IF NOT EXISTS `db` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `db`;
 -- MySQL dump 10.13  Distrib 5.5.40, for debian-linux-gnu (i686)
 --
 -- Host: localhost    Database: monitor_vuz
