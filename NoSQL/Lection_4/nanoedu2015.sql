@@ -18,6 +18,7 @@
 --
 -- Table structure for table `sp_city`
 --
+use nanoedu2015;
 
 DROP TABLE IF EXISTS `sp_city`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
